@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Books Library</title>
+   <link rel="icon" href="Picsart_23-09-22_20-43-24-176.png" type="image">
+</head>
+<body style="background-color: rgba(125, 222, 252, 0.514);">
+    <header>
+        <nav style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <img src="Picsart_23-09-22_20-43-24-176.png" height="80px" width="80px" m0px><h1 id="logo" >INFO ZONE</h1>
+            <ul id="hver">
+                <li id="list">List</li>
+                <li id="newbook" >Add new</li>
+                <li id="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="time-and-date"></div>
+    <div class="books" id="display">
+        <table>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Remove</th>
+            <h3 class="book-list"> Book Lists</h3>
+            <tbody class="library">
+            </tbody>
+        </table>
+    </div>
+    <form class="form">
+        <h3>Add a new book</h3>
+        <label for="author">
+            <input class="input-author" type="text" placeholder="Add the Author Name" required style="background-color: rgb(64, 214, 184);">
+        </label>
+        <label for="title">
+            <input class="input-book" type="text" placeholder="Add the Book Name" required style="background-color: rgb(64, 214, 184);">
+        </label>
+        <div class="error">
+            <p class="error-message">Please fill in all fields</p>
+        </div>
+        <div class="add-button">
+            <button type="submit" class="add">
+                Add To List
+            </button>
+        </div>
+
+    </form>
+    <section class="contact" id="contactPage">
+        <h3 class="contact-header">Contact Information</h3><br>
+        <div class="contents">
+            <p>To Contact 
+            </p><br>
+            <ul class="cont-list">
+                <li>Our email:717822f212@kce.ac.in</li>
+                <li>Our phone number 7010797***</li>
+                <li>Our address: Karpagam Collage Of Engineering</li>
+            </ul>
+        </div>
+    </section>
+    <section class="page-footer">
+        <div class="footer">
+            <p class="footer-info" style="text-align: center;">Thanks For Visiting !</p>
+        </div>
+    </section>
+    <script src="App.js"></script>
+</body>
+</html>

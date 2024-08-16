@@ -1,0 +1,199 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+nav {
+  box-shadow: #000000 0 0 10px;
+  border: #000 solid 2px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+nav > ul {
+  min-width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav > ul > li {
+  cursor: pointer;
+  padding: 20px;
+  border-right: #000000 solid 1px;
+}
+
+nav > h1 {
+  cursor: pointer;
+  font-size: 30px;
+  color: #030202;
+  min-width: 30%;
+}
+
+#time-and-date {
+  padding: 20px;
+  margin: 0 0 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff0707;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.error-message {
+  color: red;
+  display: none;
+}
+
+.form {
+  margin: auto;
+  width: 100%;
+  display: none;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid grey;
+  box-shadow: 0 0 5px grey;
+  border-radius: 25px;
+}
+
+.add-button {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+
+.add {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid grey;
+  box-shadow: 0 0 5px grey;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  
+}
+.list:hover{
+   background-color: #ff0000;
+  color: #fff;
+  transition: all 0.5 ease-in-out;
+}
+
+
+.add:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: all 0.5 ease-in-out;
+}
+
+.remove {
+  width: 100px;
+  padding: 10px;
+  border: 1px rgb(0, 0, 0) solid;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.remove:hover {
+  background-color: rgb(184, 14, 14);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact {
+  display: none;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+
+.footer {
+  border: 2px solid #000000;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff00;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.footer-info {
+  margin-left: 1rem;
+}
+
+form {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
